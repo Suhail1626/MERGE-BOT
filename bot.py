@@ -488,10 +488,10 @@ async def about_handler(c: Client, m: Message):
         quote=True,
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("👨‍💻 Developer👨‍💻 ", url="https://t.me/PrimeBotsUpdates")],
+                [InlineKeyboardButton("👨‍💻 Developer👨‍💻 ", url="https://t.me/BetterProffesor")],
                 [
                     InlineKeyboardButton(
-                        "💙 Leech Group 💙", url="https://github.com/yashoswalyo/MERGE-BOT"
+                        "💙 Leech Group 💙", url="https://t.me/PrimeLeechGroup"
                     ),
                     InlineKeyboardButton(
                         "🤔 Deployed By 🤔", url=f"https://t.me/{Config.OWNER_USERNAME}"
